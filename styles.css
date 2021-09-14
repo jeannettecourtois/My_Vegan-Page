@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+
+:root{
+    --Snigle-font: "Kaisei Tokumin", cursive;
+}
+header{
+    background-color: #FEFBF3;
+    color: black;
+    height: 800px;
+}
+*{
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    font-family: var(--Snigle-font);
+    color: black;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: #FEFBF3;
+    min-width: 160px;
+    box-shadow: 0px 2 px 15px 0px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background: #E7E0C9;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header .nav-link{
+    color: black;
+}
+header .nav-link:hover{
+    color: #7F7C82;
+}
+.container-fluid .navbar-brand{
+    color: black;
+}
+.container-fluid .navbar-brand:hover{
+    color: #7F7C82;
+}
+.blockquote p{
+    font-size: 12px;
+}
+.blockquote-footer{
+    font-size: 10px;
+}
+.phrasePage{
+    height: 250px;
+}
+.mystory{
+    padding: 10px 30px 60px 80px;
+}
+.section-1{
+    height: 900px;
+}
+.section-1 .row .col-md-6 .mystory img{
+    opacity: 0.9;
+    width: 80%;
+    border-radius: 0.1em;
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: #FEFBF3;
+    border-radius: 3px;
+    text-align:center;
+    padding: 13vmin 5vmin 20 vmin 10 vmin;
+    z-index: 1;
+}
+.section2 .container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    padding-top: 50vmin;
+    padding-bottom: 0.1em;
+}
+.row .card{
+    background-color: #FEFBF3;
+}
+.row .card .btn{
+    background-color: #7F7C82;
+    text-decoration: none;
+}
+
